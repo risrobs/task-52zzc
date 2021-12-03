@@ -10,6 +10,10 @@
 
 <body>
 <div class="container">
+    <div class="container pt-3 mx-auto">
+    <div id="main" [innerHtml]="strHtml"></div>
+    <button class="btn btn-primary mt-4" (click)="insert()">New</button>
+</div>
     <div class="row">
         <div class="leftcol">
             <form name='mainForm' id='mainForm' method="get" action="http://www.randyconnolly.com/tests/process.php">
